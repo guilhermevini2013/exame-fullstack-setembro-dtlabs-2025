@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/device-monitoring-api/device-monitoring-api.iml" filepath="$PROJECT_DIR$/device-monitoring-api/device-monitoring-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/device-monitoring-ui/device-monitoring-ui.iml" filepath="$PROJECT_DIR$/device-monitoring-ui/device-monitoring-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exame-fullstack-setembro-dtlabs-2025.iml" filepath="$PROJECT_DIR$/exame-fullstack-setembro-dtlabs-2025.iml" />
+    </modules>
+  </component>
+</project>
