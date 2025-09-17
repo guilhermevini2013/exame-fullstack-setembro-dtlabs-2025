@@ -3,7 +3,7 @@ package com.example.devicemonitoringapi.controllers;
 import com.example.devicemonitoringapi.application.usecases.user.AuthUseCase;
 import com.example.devicemonitoringapi.dtos.ErrorResponseDTO;
 import com.example.devicemonitoringapi.dtos.SuccessResponseDTO;
-import com.example.devicemonitoringapi.dtos.UserAuthDTO;
+import com.example.devicemonitoringapi.dtos.user.UserAuthDTO;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpStatus;

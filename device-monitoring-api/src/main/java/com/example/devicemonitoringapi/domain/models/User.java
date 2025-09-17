@@ -33,7 +33,7 @@ public class User implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of((GrantedAuthority) () -> "USER");
+        return List.of((GrantedAuthority) () -> "ROLE_USER");
     }
 
     @Override
@@ -44,6 +44,10 @@ public class User implements UserDetails {
     @Override
     public String getUsername() {
         return this.name;
+    }
+
+    public UUID getId() {
+        return id;
     }
 
     private static class Builder {

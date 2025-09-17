@@ -2,7 +2,7 @@ package com.example.devicemonitoringapi.application.usecases.user;
 
 import com.example.devicemonitoringapi.application.services.JwtService;
 import com.example.devicemonitoringapi.domain.models.User;
-import com.example.devicemonitoringapi.dtos.UserAuthDTO;
+import com.example.devicemonitoringapi.dtos.user.UserAuthDTO;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

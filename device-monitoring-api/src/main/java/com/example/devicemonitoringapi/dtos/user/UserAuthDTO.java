@@ -1,4 +1,4 @@
-package com.example.devicemonitoringapi.dtos;
+package com.example.devicemonitoringapi.dtos.user;
 
 public record UserAuthDTO(
         String name,
